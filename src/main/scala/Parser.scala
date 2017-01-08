@@ -41,34 +41,33 @@ object Parser {
     }
   }
 
-  def parseCard(card: String): Error \/ Card = {
-    val value = parseValue(card.charAt(0))
+  def parseCard(card: String): Error \/ Card = for {
+    value <- parseValue(card.charAt(0))
+    card <- parseSuit(card.charAt(1), value)
+  } yield card
 
-    parseSuit(card.charAt(1), withValue = value)
-        .fold[Error \/ Card](e => -\/(InvalidCard(value + e.s)), r => \/-(r))
-  }
-
-  private def parseValue(char: Char) = char match {
-    case '2'  =>  2
-    case '3'  =>  3
-    case '4'  =>  4
-    case '5'  =>  5
-    case '6'  =>  6
-    case '7'  =>  7
-    case '8'  =>  8
-    case '9'  =>  9
-    case 'T'  =>  10
-    case 'Q'  =>  11
-    case 'K'  =>  12
-    case 'A'  =>  13
+  private def parseValue(char: Char): InvalidCard \/ Int = char match {
+    case '2' => \/-(2)
+    case '3' => \/-(3)
+    case '4' => \/-(4)
+    case '5' => \/-(5)
+    case '6' => \/-(6)
+    case '7' => \/-(7)
+    case '8' => \/-(8)
+    case '9' => \/-(9)
+    case 'T' => \/-(10)
+    case 'Q' => \/-(11)
+    case 'K' => \/-(12)
+    case 'A' => \/-(13)
+    case x   => -\/(InvalidCard(x.toString))
   }
 
   private def parseSuit(char: Char, withValue: Int): InvalidCard \/ Card = char match {
-    case 'H'  =>  \/-(H(withValue))
-    case 'C'  =>  \/-(C(withValue))
-    case 'D'  =>  \/-(D(withValue))
-    case 'S'  =>  \/-(S(withValue))
-    case x    =>  -\/(InvalidCard(x.toString))
+    case 'H' => \/-(H(withValue))
+    case 'C' => \/-(C(withValue))
+    case 'D' => \/-(D(withValue))
+    case 'S' => \/-(S(withValue))
+    case x   => -\/(InvalidCard(x.toString))
   }
 }
 

@@ -14,6 +14,7 @@ class ParserSpecs extends FlatSpec with Matchers {
 
   it should "return Left if there are not two players" in {
     Parser.parseInput("White: asdasdf") should be (-\/(MissingPlayer))
+    Parser.parseInput("Black: 1 2 3 4 5 ") should be (-\/(MissingPlayer))
   }
 
   it should "return Left if invalid card" in {
@@ -26,6 +27,7 @@ class ParserSpecs extends FlatSpec with Matchers {
     val card = Parser.parseCard(input)
 
     card should be (\/-(H(2)))
+
   }
 
   it should "parse any suit" in {
@@ -44,6 +46,8 @@ class ParserSpecs extends FlatSpec with Matchers {
     Parser.parseCard("QH") should be (\/-(H(11)))
     Parser.parseCard("KH") should be (\/-(H(12)))
     Parser.parseCard("AH") should be (\/-(H(13)))
+
+    Parser.parseCard("1H") should be (-\/(InvalidCard("1")))
   }
 
   it should "parse a hand" in {
