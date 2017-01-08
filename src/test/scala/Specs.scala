@@ -4,46 +4,63 @@
 
 import org.scalatest.{FlatSpec, Matchers}
 
+import scalaz.{-\/, \/-}
+
 class ParserSpecs extends FlatSpec with Matchers {
+
+  it should "return Left if empty input" in {
+    Parser.parseInput("") should be (-\/(EmptyInput))
+  }
+
+  it should "return Left if there are not two players" in {
+    Parser.parseInput("White: asdasdf") should be (-\/(MissingPlayer))
+  }
+
+  it should "return Left if invalid card" in {
+    Parser.parseInput("Black: 2H 3D 5S 9C KD White: 2M 3H 4S 8C AH") should be (-\/(InvalidHand))
+  }
+
   it should "parse a card" in {
     val input = "2H"
 
     val card = Parser.parseCard(input)
 
-    card should be (H(2))
+    card should be (\/-(H(2)))
   }
 
   it should "parse any suit" in {
-    Parser.parseCard("2C") should be (C(2))
-    Parser.parseCard("2D") should be (D(2))
-    Parser.parseCard("2H") should be (H(2))
-    Parser.parseCard("2S") should be (S(2))
+    Parser.parseCard("2C") should be (\/-(C(2)))
+    Parser.parseCard("2D") should be (\/-(D(2)))
+    Parser.parseCard("2H") should be (\/-(H(2)))
+    Parser.parseCard("2S") should be (\/-(S(2)))
   }
 
   it should "parse any values" in {
     (2 to 9).foreach { v =>
-      Parser.parseCard(s"${v}H") should be (H(v))
+      Parser.parseCard(s"${v}H") should be (\/-(H(v)))
     }
 
-    Parser.parseCard("TH") should be (H(10))
-    Parser.parseCard("QH") should be (H(11))
-    Parser.parseCard("KH") should be (H(12))
-    Parser.parseCard("AH") should be (H(13))
+    Parser.parseCard("TH") should be (\/-(H(10)))
+    Parser.parseCard("QH") should be (\/-(H(11)))
+    Parser.parseCard("KH") should be (\/-(H(12)))
+    Parser.parseCard("AH") should be (\/-(H(13)))
   }
 
   it should "parse a hand" in {
     val hand = Parser.parseHand("2H 3D 5S 9C KD")
 
-    hand.cards should contain only (H(2), D(3), S(5), C(9), D(12))
+    hand.foreach(_.cards should contain only (H(2), D(3), S(5), C(9), D(12)))
   }
 
   it should "parse complete input" in {
     val input = "Black: 2H 3D 5S 9C KD White: 2C 3H 4S 8C AH"
 
-    val (black, white) = Parser.parseInput(input)
+    val either = Parser.parseInput(input)
 
-    black.cards should contain only (H(2), D(3), S(5), C(9), D(12))
-    white.cards should contain only (C(2), H(3), S(4), C(8), H(13))
+    either.foreach { case (black, white) =>
+      black.cards should contain only (H(2), D(3), S(5), C(9), D(12))
+      white.cards should contain only (C(2), H(3), S(4), C(8), H(13))
+    }
   }
 }
 

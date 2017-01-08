@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fb89997-0575-4902-913c-41070a0bdae0" name="Default" comment="" />
+    <list default="true" id="5fb89997-0575-4902-913c-41070a0bdae0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/pocker-eval.iml" afterPath="$PROJECT_DIR$/.idea/modules/pocker-eval.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.sbt" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Implicits.scala" afterPath="$PROJECT_DIR$/src/main/scala/Implicits.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/Parser.scala" afterPath="$PROJECT_DIR$/src/main/scala/Parser.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/app.scala" afterPath="$PROJECT_DIR$/src/main/scala/app.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/scala/Specs.scala" afterPath="$PROJECT_DIR$/src/test/scala/Specs.scala" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -23,151 +33,123 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Specs.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/Specs.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="e#139#1237#0" expanded="false" />
-                <element signature="e#171#264#0" expanded="false" />
-                <element signature="e#298#479#0" expanded="false" />
-                <element signature="e#515#785#0" expanded="false" />
-                <element signature="e#538#600#0" expanded="false" />
-                <element signature="e#817#940#0" expanded="false" />
-                <element signature="e#980#1235#0" expanded="false" />
-                <element signature="e#1295#1620#0" expanded="false" />
-                <element signature="e#1351#1457#0" expanded="false" />
-                <element signature="e#1516#1618#0" expanded="false" />
-                <element signature="e#1682#2022#0" expanded="false" />
-                <element signature="e#1738#1848#0" expanded="false" />
-                <element signature="e#1910#2020#0" expanded="false" />
-                <element signature="e#2088#2475#0" expanded="false" />
-                <element signature="e#2158#2272#0" expanded="false" />
-                <element signature="e#2355#2473#0" expanded="false" />
-                <element signature="e#2537#2892#0" expanded="false" />
-                <element signature="e#2605#2715#0" expanded="false" />
-                <element signature="e#2780#2890#0" expanded="false" />
-                <element signature="e#2951#3291#0" expanded="false" />
-                <element signature="e#3013#3120#0" expanded="false" />
-                <element signature="e#3184#3289#0" expanded="false" />
-                <element signature="e#3354#3722#0" expanded="false" />
-                <element signature="e#3414#3526#0" expanded="false" />
-                <element signature="e#3605#3720#0" expanded="false" />
-                <element signature="e#3787#4120#0" expanded="false" />
-                <element signature="e#3851#3964#0" expanded="false" />
-                <element signature="e#4002#4118#0" expanded="false" />
-                <element signature="e#4187#4701#0" expanded="false" />
-                <element signature="e#4247#4362#0" expanded="false" />
-                <element signature="e#4424#4539#0" expanded="false" />
-                <element signature="e#4579#4699#0" expanded="false" />
-                <element signature="e#4760#5476#0" expanded="false" />
-                <element signature="e#4792#5474#0" expanded="false" />
-                <element signature="e#5535#8486#0" expanded="false" />
-                <element signature="e#5620#5734#0" expanded="false" />
-                <element signature="e#5777#6115#0" expanded="false" />
-                <element signature="e#6159#6268#0" expanded="false" />
-                <element signature="e#6311#6476#0" expanded="false" />
-                <element signature="e#6529#6642#0" expanded="false" />
-                <element signature="e#6690#6859#0" expanded="false" />
-                <element signature="e#6913#7147#0" expanded="false" />
-                <element signature="e#7194#7420#0" expanded="false" />
-                <element signature="e#7464#7695#0" expanded="false" />
-                <element signature="e#7744#7955#0" expanded="false" />
-                <element signature="e#8008#8217#0" expanded="false" />
-                <element signature="e#8270#8484#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hand.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Hand.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-              <folding>
-                <element signature="n#!!doc;n#Hand#0" expanded="false" />
-                <element signature="e#1445#1735#0" expanded="false" />
-                <element signature="e#1524#1735#0" expanded="false" />
-                <element signature="e#1611#1731#0" expanded="false" />
-                <element signature="e#1622#1645#0" expanded="false" />
-                <element signature="e#1662#1685#0" expanded="false" />
-                <element signature="e#1691#1731#0" expanded="false" />
-                <element signature="e#1739#2081#0" expanded="false" />
-                <element signature="e#1924#1943#0" expanded="false" />
-                <element signature="e#1978#1997#0" expanded="false" />
-                <element signature="e#2003#2077#0" expanded="false" />
-                <element signature="e#2085#2570#0" expanded="false" />
-                <element signature="e#2274#2293#0" expanded="false" />
-                <element signature="e#2324#2343#0" expanded="false" />
-                <element signature="e#2374#2393#0" expanded="false" />
-                <element signature="e#2424#2443#0" expanded="false" />
-                <element signature="e#2474#2493#0" expanded="false" />
-                <element signature="e#2524#2543#0" expanded="false" />
-                <element signature="e#2549#2566#0" expanded="false" />
-                <element signature="e#2574#2786#0" expanded="false" />
-                <element signature="e#2790#2999#0" expanded="false" />
-                <element signature="e#3003#3278#0" expanded="false" />
-                <element signature="e#3140#3163#0" expanded="false" />
-                <element signature="e#3228#3251#0" expanded="false" />
-                <element signature="e#3257#3278#0" expanded="false" />
-                <element signature="e#3282#3519#0" expanded="false" />
-                <element signature="e#3523#3843#0" expanded="false" />
-                <element signature="e#3781#3807#0" expanded="false" />
-                <element signature="e#3813#3839#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chain.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Chain.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/app.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#47#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutcomeOf.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.1-sources.jar!/org/scalatest/OutcomeOf.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="89" column="11" lean-forward="false" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Card.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Card.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Parser.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/scala/Parser.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="64">
+                  <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#47#60#0" expanded="true" />
+                    <element signature="e#1069#1329#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PairEvaluator.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/scala/PairEvaluator.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Implicits.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/scala/Implicits.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.scala" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/scala/app.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#47#65#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Specs.scala" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/scala/Specs.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="315">
+                  <caret line="55" column="60" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="60" />
+                  <folding>
+                    <element signature="e#47#88#0" expanded="true" />
+                    <element signature="e#1820#2145#0" expanded="false" />
+                    <element signature="e#1876#1982#0" expanded="false" />
+                    <element signature="e#2041#2143#0" expanded="false" />
+                    <element signature="e#2207#2547#0" expanded="false" />
+                    <element signature="e#2263#2373#0" expanded="false" />
+                    <element signature="e#2435#2545#0" expanded="false" />
+                    <element signature="e#2613#3000#0" expanded="false" />
+                    <element signature="e#2683#2797#0" expanded="false" />
+                    <element signature="e#2880#2998#0" expanded="false" />
+                    <element signature="e#3062#3417#0" expanded="false" />
+                    <element signature="e#3130#3240#0" expanded="false" />
+                    <element signature="e#3305#3415#0" expanded="false" />
+                    <element signature="e#3476#3816#0" expanded="false" />
+                    <element signature="e#3538#3645#0" expanded="false" />
+                    <element signature="e#3709#3814#0" expanded="false" />
+                    <element signature="e#3879#4247#0" expanded="false" />
+                    <element signature="e#3939#4051#0" expanded="false" />
+                    <element signature="e#4130#4245#0" expanded="false" />
+                    <element signature="e#4312#4645#0" expanded="false" />
+                    <element signature="e#4376#4489#0" expanded="false" />
+                    <element signature="e#4527#4643#0" expanded="false" />
+                    <element signature="e#4712#5226#0" expanded="false" />
+                    <element signature="e#4772#4887#0" expanded="false" />
+                    <element signature="e#4949#5064#0" expanded="false" />
+                    <element signature="e#5104#5224#0" expanded="false" />
+                    <element signature="e#5285#6001#0" expanded="false" />
+                    <element signature="e#5317#5999#0" expanded="false" />
+                    <element signature="e#6060#9011#0" expanded="false" />
+                    <element signature="e#6145#6259#0" expanded="false" />
+                    <element signature="e#6302#6640#0" expanded="false" />
+                    <element signature="e#6684#6793#0" expanded="false" />
+                    <element signature="e#6836#7001#0" expanded="false" />
+                    <element signature="e#7054#7167#0" expanded="false" />
+                    <element signature="e#7215#7384#0" expanded="false" />
+                    <element signature="e#7438#7672#0" expanded="false" />
+                    <element signature="e#7719#7945#0" expanded="false" />
+                    <element signature="e#7989#8220#0" expanded="false" />
+                    <element signature="e#8269#8480#0" expanded="false" />
+                    <element signature="e#8533#8742#0" expanded="false" />
+                    <element signature="e#8795#9009#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Position.scala" pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.1-sources.jar!/org/scalactic/source/Position.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -178,6 +160,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -186,11 +171,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/HandType.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/GameResult.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Step.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Parser.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Chain.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/FlushEvaluator.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/TwoPairsEvaluator.scala" />
@@ -198,9 +181,11 @@
         <option value="$PROJECT_DIR$/src/main/scala/Card.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/ParserSpecs.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Hand.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Implicits.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/app.scala" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/src/main/scala/Parser.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/Specs.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/app.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/Implicits.scala" />
       </list>
     </option>
   </component>
@@ -230,6 +215,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,11 +292,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pocker-eval" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pocker-eval" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -813,14 +820,14 @@
     <recent_temporary>
       <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.app" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.HandComparatorSpecs" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.ChainEvaluatorSpecs" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ParserSpecs" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ParserSpecs" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.HandComparatorSpecs" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ChainEvaluatorSpecs" />
       </list>
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1483747014733" />
+    <option name="lastUpdateTimestamp" value="1483850168913" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -852,7 +859,7 @@
         <entry key="$PROJECT_DIR$/../allnow/searcher" value="1479479090000" />
         <entry key="$PROJECT_DIR$/../dogs" value="5816132492000" />
         <entry key="$PROJECT_DIR$/../meetings" value="1460084098000" />
-        <entry key="$PROJECT_DIR$" value="1483746993000" />
+        <entry key="$PROJECT_DIR$" value="1483850143000" />
         <entry key="$PROJECT_DIR$/../rate-my-meetings" value="1454472236000" />
         <entry key="$USER_HOME$/banana-rdf/banana-rdf" value="1477411486000" />
         <entry key="$USER_HOME$/dogs" value="7280475085000" />
@@ -874,20 +881,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483746818918</updated>
       <workItem from="1483746820528" duration="19877000" />
-      <workItem from="1483827443291" duration="2537000" />
+      <workItem from="1483827443291" duration="4251000" />
+      <workItem from="1483850997509" duration="3430000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChainEvaluatorSpecs - 2017.01.06 at 20h 08m 36s.xml">
-      <configuration name="ChainEvaluatorSpecs" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ChainEvaluatorSpecs - 2017.01.06 at 21h 52m 09s.xml">
-      <configuration name="ChainEvaluatorSpecs" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ChainEvaluatorSpecs - 2017.01.06 at 21h 55m 00s.xml">
-      <configuration name="ChainEvaluatorSpecs" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="HandComparatorSpecs - 2017.01.07 at 14h 24m 31s.xml">
       <configuration name="HandComparatorSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -909,9 +908,18 @@
     <history-entry file="ParserSpecs - 2017.01.06 at 19h 32m 24s.xml">
       <configuration name="ParserSpecs" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="ParserSpecs - 2017.01.08 at 00h 14m 54s.xml">
+      <configuration name="ParserSpecs" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ParserSpecs - 2017.01.08 at 00h 16m 19s.xml">
+      <configuration name="ParserSpecs" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ParserSpecs - 2017.01.08 at 00h 46m 18s.xml">
+      <configuration name="ParserSpecs" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22414000" />
+    <option name="totallyTimeSpent" value="27558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -938,10 +946,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25363275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25231177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -963,12 +971,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/test/scala/Specs.scala</url>
-          <line>271</line>
+          <line>288</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/test/scala/Specs.scala</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/Parser.scala</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -977,14 +997,142 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Game.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Hand.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="101" column="25" lean-forward="false" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="25" />
+        <state relative-caret-position="465">
+          <caret line="31" column="7" lean-forward="false" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc;n#Hand#0" expanded="false" />
+            <element signature="e#1445#1735#0" expanded="false" />
+            <element signature="e#1524#1735#0" expanded="false" />
+            <element signature="e#1611#1731#0" expanded="false" />
+            <element signature="e#1622#1645#0" expanded="false" />
+            <element signature="e#1662#1685#0" expanded="false" />
+            <element signature="e#1691#1731#0" expanded="false" />
+            <element signature="e#1739#2081#0" expanded="false" />
+            <element signature="e#1924#1943#0" expanded="false" />
+            <element signature="e#1978#1997#0" expanded="false" />
+            <element signature="e#2003#2077#0" expanded="false" />
+            <element signature="e#2085#2570#0" expanded="false" />
+            <element signature="e#2274#2293#0" expanded="false" />
+            <element signature="e#2324#2343#0" expanded="false" />
+            <element signature="e#2374#2393#0" expanded="false" />
+            <element signature="e#2424#2443#0" expanded="false" />
+            <element signature="e#2474#2493#0" expanded="false" />
+            <element signature="e#2524#2543#0" expanded="false" />
+            <element signature="e#2549#2566#0" expanded="false" />
+            <element signature="e#2574#2786#0" expanded="false" />
+            <element signature="e#2790#2999#0" expanded="false" />
+            <element signature="e#3003#3278#0" expanded="false" />
+            <element signature="e#3140#3163#0" expanded="false" />
+            <element signature="e#3228#3251#0" expanded="false" />
+            <element signature="e#3257#3278#0" expanded="false" />
+            <element signature="e#3282#3519#0" expanded="false" />
+            <element signature="e#3523#3843#0" expanded="false" />
+            <element signature="e#3781#3807#0" expanded="false" />
+            <element signature="e#3813#3839#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Chain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/app.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="e#47#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.1-sources.jar!/org/scalatest/OutcomeOf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="89" column="11" lean-forward="false" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Card.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Parser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="e#47#60#0" expanded="true" />
+            <element signature="e#1069#1329#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/Specs.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="49" column="26" lean-forward="false" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding>
+            <element signature="e#47#88#0" expanded="true" />
+            <element signature="e#1820#2145#0" expanded="false" />
+            <element signature="e#1876#1982#0" expanded="false" />
+            <element signature="e#2041#2143#0" expanded="false" />
+            <element signature="e#2207#2547#0" expanded="false" />
+            <element signature="e#2263#2373#0" expanded="false" />
+            <element signature="e#2435#2545#0" expanded="false" />
+            <element signature="e#2613#3000#0" expanded="false" />
+            <element signature="e#2683#2797#0" expanded="false" />
+            <element signature="e#2880#2998#0" expanded="false" />
+            <element signature="e#3062#3417#0" expanded="false" />
+            <element signature="e#3130#3240#0" expanded="false" />
+            <element signature="e#3305#3415#0" expanded="false" />
+            <element signature="e#3476#3816#0" expanded="false" />
+            <element signature="e#3538#3645#0" expanded="false" />
+            <element signature="e#3709#3814#0" expanded="false" />
+            <element signature="e#3879#4247#0" expanded="false" />
+            <element signature="e#3939#4051#0" expanded="false" />
+            <element signature="e#4130#4245#0" expanded="false" />
+            <element signature="e#4312#4645#0" expanded="false" />
+            <element signature="e#4376#4489#0" expanded="false" />
+            <element signature="e#4527#4643#0" expanded="false" />
+            <element signature="e#4712#5226#0" expanded="false" />
+            <element signature="e#4772#4887#0" expanded="false" />
+            <element signature="e#4949#5064#0" expanded="false" />
+            <element signature="e#5104#5224#0" expanded="false" />
+            <element signature="e#5285#6001#0" expanded="false" />
+            <element signature="e#5317#5999#0" expanded="false" />
+            <element signature="e#6060#9011#0" expanded="false" />
+            <element signature="e#6145#6259#0" expanded="false" />
+            <element signature="e#6302#6640#0" expanded="false" />
+            <element signature="e#6684#6793#0" expanded="false" />
+            <element signature="e#6836#7001#0" expanded="false" />
+            <element signature="e#7054#7167#0" expanded="false" />
+            <element signature="e#7215#7384#0" expanded="false" />
+            <element signature="e#7438#7672#0" expanded="false" />
+            <element signature="e#7719#7945#0" expanded="false" />
+            <element signature="e#7989#8220#0" expanded="false" />
+            <element signature="e#8269#8480#0" expanded="false" />
+            <element signature="e#8533#8742#0" expanded="false" />
+            <element signature="e#8795#9009#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Game.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/Hand.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
@@ -1046,61 +1194,48 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#139#1237#0" expanded="false" />
-            <element signature="e#171#264#0" expanded="false" />
-            <element signature="e#298#479#0" expanded="false" />
-            <element signature="e#515#785#0" expanded="false" />
-            <element signature="e#538#600#0" expanded="false" />
-            <element signature="e#817#940#0" expanded="false" />
-            <element signature="e#980#1235#0" expanded="false" />
-            <element signature="e#1295#1620#0" expanded="false" />
-            <element signature="e#1351#1457#0" expanded="false" />
-            <element signature="e#1516#1618#0" expanded="false" />
-            <element signature="e#1682#2022#0" expanded="false" />
-            <element signature="e#1738#1848#0" expanded="false" />
-            <element signature="e#1910#2020#0" expanded="false" />
-            <element signature="e#2088#2475#0" expanded="false" />
-            <element signature="e#2158#2272#0" expanded="false" />
-            <element signature="e#2355#2473#0" expanded="false" />
-            <element signature="e#2537#2892#0" expanded="false" />
-            <element signature="e#2605#2715#0" expanded="false" />
-            <element signature="e#2780#2890#0" expanded="false" />
-            <element signature="e#2951#3291#0" expanded="false" />
-            <element signature="e#3013#3120#0" expanded="false" />
-            <element signature="e#3184#3289#0" expanded="false" />
-            <element signature="e#3354#3722#0" expanded="false" />
-            <element signature="e#3414#3526#0" expanded="false" />
-            <element signature="e#3605#3720#0" expanded="false" />
-            <element signature="e#3787#4120#0" expanded="false" />
-            <element signature="e#3851#3964#0" expanded="false" />
-            <element signature="e#4002#4118#0" expanded="false" />
-            <element signature="e#4187#4701#0" expanded="false" />
-            <element signature="e#4247#4362#0" expanded="false" />
-            <element signature="e#4424#4539#0" expanded="false" />
-            <element signature="e#4579#4699#0" expanded="false" />
-            <element signature="e#4760#5476#0" expanded="false" />
-            <element signature="e#4792#5474#0" expanded="false" />
-            <element signature="e#5535#8486#0" expanded="false" />
-            <element signature="e#5620#5734#0" expanded="false" />
-            <element signature="e#5777#6115#0" expanded="false" />
-            <element signature="e#6159#6268#0" expanded="false" />
-            <element signature="e#6311#6476#0" expanded="false" />
-            <element signature="e#6529#6642#0" expanded="false" />
-            <element signature="e#6690#6859#0" expanded="false" />
-            <element signature="e#6913#7147#0" expanded="false" />
-            <element signature="e#7194#7420#0" expanded="false" />
-            <element signature="e#7464#7695#0" expanded="false" />
-            <element signature="e#7744#7955#0" expanded="false" />
-            <element signature="e#8008#8217#0" expanded="false" />
-            <element signature="e#8270#8484#0" expanded="false" />
+            <element signature="e#47#88#0" expanded="true" />
+            <element signature="e#1820#2145#0" expanded="false" />
+            <element signature="e#1876#1982#0" expanded="false" />
+            <element signature="e#2041#2143#0" expanded="false" />
+            <element signature="e#2207#2547#0" expanded="false" />
+            <element signature="e#2263#2373#0" expanded="false" />
+            <element signature="e#2435#2545#0" expanded="false" />
+            <element signature="e#2613#3000#0" expanded="false" />
+            <element signature="e#2683#2797#0" expanded="false" />
+            <element signature="e#2880#2998#0" expanded="false" />
+            <element signature="e#3062#3417#0" expanded="false" />
+            <element signature="e#3130#3240#0" expanded="false" />
+            <element signature="e#3305#3415#0" expanded="false" />
+            <element signature="e#3476#3816#0" expanded="false" />
+            <element signature="e#3538#3645#0" expanded="false" />
+            <element signature="e#3709#3814#0" expanded="false" />
+            <element signature="e#3879#4247#0" expanded="false" />
+            <element signature="e#3939#4051#0" expanded="false" />
+            <element signature="e#4130#4245#0" expanded="false" />
+            <element signature="e#4312#4645#0" expanded="false" />
+            <element signature="e#4376#4489#0" expanded="false" />
+            <element signature="e#4527#4643#0" expanded="false" />
+            <element signature="e#4712#5226#0" expanded="false" />
+            <element signature="e#4772#4887#0" expanded="false" />
+            <element signature="e#4949#5064#0" expanded="false" />
+            <element signature="e#5104#5224#0" expanded="false" />
+            <element signature="e#5285#6001#0" expanded="false" />
+            <element signature="e#5317#5999#0" expanded="false" />
+            <element signature="e#6060#9011#0" expanded="false" />
+            <element signature="e#6145#6259#0" expanded="false" />
+            <element signature="e#6302#6640#0" expanded="false" />
+            <element signature="e#6684#6793#0" expanded="false" />
+            <element signature="e#6836#7001#0" expanded="false" />
+            <element signature="e#7054#7167#0" expanded="false" />
+            <element signature="e#7215#7384#0" expanded="false" />
+            <element signature="e#7438#7672#0" expanded="false" />
+            <element signature="e#7719#7945#0" expanded="false" />
+            <element signature="e#7989#8220#0" expanded="false" />
+            <element signature="e#8269#8480#0" expanded="false" />
+            <element signature="e#8533#8742#0" expanded="false" />
+            <element signature="e#8795#9009#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -1126,22 +1261,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Parser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="e#76#963#1" expanded="false" />
-            <element signature="e#81#256#0" expanded="false" />
-            <element signature="e#324#458#0" expanded="false" />
-            <element signature="e#462#759#0" expanded="false" />
-            <element signature="e#499#759#0" expanded="false" />
-            <element signature="e#763#961#0" expanded="false" />
-            <element signature="e#821#961#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/TwoPairsEvaluator.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1160,7 +1279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1190,15 +1308,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/GameInstance.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Game.scala" />
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="62" lean-forward="false" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/PairEvaluator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalactic/scalactic_2.12/srcs/scalactic_2.12-3.0.1-sources.jar!/org/scalactic/source/Position.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scalatest/scalatest_2.12/srcs/scalatest_2.12-3.0.1-sources.jar!/org/scalatest/FlatSpecLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="381" column="6" lean-forward="false" selection-start-line="381" selection-start-column="6" selection-end-line="381" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Hand.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        <state relative-caret-position="30">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
           <folding>
             <element signature="n#!!doc;n#Hand#0" expanded="false" />
+            <element signature="e#259#1441#0" expanded="false" />
             <element signature="e#1445#1735#0" expanded="false" />
             <element signature="e#1524#1735#0" expanded="false" />
-            <element signature="e#1611#1731#0" expanded="false" />
             <element signature="e#1622#1645#0" expanded="false" />
             <element signature="e#1662#1685#0" expanded="false" />
             <element signature="e#1691#1731#0" expanded="false" />
@@ -1228,93 +1386,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/GameInstance.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Parser.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="64">
+          <caret line="27" column="30" lean-forward="false" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="e#47#60#0" expanded="true" />
+            <element signature="e#1069#1329#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Implicits.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="54" lean-forward="false" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/app.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="41" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#47#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Game.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="94" column="7" lean-forward="false" selection-start-line="87" selection-start-column="4" selection-end-line="94" selection-end-column="7" />
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/Specs.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="48" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="55" column="60" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="60" />
           <folding>
-            <element signature="e#139#1237#0" expanded="false" />
-            <element signature="e#171#264#0" expanded="false" />
-            <element signature="e#298#479#0" expanded="false" />
-            <element signature="e#515#785#0" expanded="false" />
-            <element signature="e#538#600#0" expanded="false" />
-            <element signature="e#817#940#0" expanded="false" />
-            <element signature="e#980#1235#0" expanded="false" />
-            <element signature="e#1295#1620#0" expanded="false" />
-            <element signature="e#1351#1457#0" expanded="false" />
-            <element signature="e#1516#1618#0" expanded="false" />
-            <element signature="e#1682#2022#0" expanded="false" />
-            <element signature="e#1738#1848#0" expanded="false" />
-            <element signature="e#1910#2020#0" expanded="false" />
-            <element signature="e#2088#2475#0" expanded="false" />
-            <element signature="e#2158#2272#0" expanded="false" />
-            <element signature="e#2355#2473#0" expanded="false" />
-            <element signature="e#2537#2892#0" expanded="false" />
-            <element signature="e#2605#2715#0" expanded="false" />
-            <element signature="e#2780#2890#0" expanded="false" />
-            <element signature="e#2951#3291#0" expanded="false" />
-            <element signature="e#3013#3120#0" expanded="false" />
-            <element signature="e#3184#3289#0" expanded="false" />
-            <element signature="e#3354#3722#0" expanded="false" />
-            <element signature="e#3414#3526#0" expanded="false" />
-            <element signature="e#3605#3720#0" expanded="false" />
-            <element signature="e#3787#4120#0" expanded="false" />
-            <element signature="e#3851#3964#0" expanded="false" />
-            <element signature="e#4002#4118#0" expanded="false" />
-            <element signature="e#4187#4701#0" expanded="false" />
-            <element signature="e#4247#4362#0" expanded="false" />
-            <element signature="e#4424#4539#0" expanded="false" />
-            <element signature="e#4579#4699#0" expanded="false" />
-            <element signature="e#4760#5476#0" expanded="false" />
-            <element signature="e#4792#5474#0" expanded="false" />
-            <element signature="e#5535#8486#0" expanded="false" />
-            <element signature="e#5620#5734#0" expanded="false" />
-            <element signature="e#5777#6115#0" expanded="false" />
-            <element signature="e#6159#6268#0" expanded="false" />
-            <element signature="e#6311#6476#0" expanded="false" />
-            <element signature="e#6529#6642#0" expanded="false" />
-            <element signature="e#6690#6859#0" expanded="false" />
-            <element signature="e#6913#7147#0" expanded="false" />
-            <element signature="e#7194#7420#0" expanded="false" />
-            <element signature="e#7464#7695#0" expanded="false" />
-            <element signature="e#7744#7955#0" expanded="false" />
-            <element signature="e#8008#8217#0" expanded="false" />
-            <element signature="e#8270#8484#0" expanded="false" />
+            <element signature="e#47#88#0" expanded="true" />
+            <element signature="e#1820#2145#0" expanded="false" />
+            <element signature="e#1876#1982#0" expanded="false" />
+            <element signature="e#2041#2143#0" expanded="false" />
+            <element signature="e#2207#2547#0" expanded="false" />
+            <element signature="e#2263#2373#0" expanded="false" />
+            <element signature="e#2435#2545#0" expanded="false" />
+            <element signature="e#2613#3000#0" expanded="false" />
+            <element signature="e#2683#2797#0" expanded="false" />
+            <element signature="e#2880#2998#0" expanded="false" />
+            <element signature="e#3062#3417#0" expanded="false" />
+            <element signature="e#3130#3240#0" expanded="false" />
+            <element signature="e#3305#3415#0" expanded="false" />
+            <element signature="e#3476#3816#0" expanded="false" />
+            <element signature="e#3538#3645#0" expanded="false" />
+            <element signature="e#3709#3814#0" expanded="false" />
+            <element signature="e#3879#4247#0" expanded="false" />
+            <element signature="e#3939#4051#0" expanded="false" />
+            <element signature="e#4130#4245#0" expanded="false" />
+            <element signature="e#4312#4645#0" expanded="false" />
+            <element signature="e#4376#4489#0" expanded="false" />
+            <element signature="e#4527#4643#0" expanded="false" />
+            <element signature="e#4712#5226#0" expanded="false" />
+            <element signature="e#4772#4887#0" expanded="false" />
+            <element signature="e#4949#5064#0" expanded="false" />
+            <element signature="e#5104#5224#0" expanded="false" />
+            <element signature="e#5285#6001#0" expanded="false" />
+            <element signature="e#5317#5999#0" expanded="false" />
+            <element signature="e#6060#9011#0" expanded="false" />
+            <element signature="e#6145#6259#0" expanded="false" />
+            <element signature="e#6302#6640#0" expanded="false" />
+            <element signature="e#6684#6793#0" expanded="false" />
+            <element signature="e#6836#7001#0" expanded="false" />
+            <element signature="e#7054#7167#0" expanded="false" />
+            <element signature="e#7215#7384#0" expanded="false" />
+            <element signature="e#7438#7672#0" expanded="false" />
+            <element signature="e#7719#7945#0" expanded="false" />
+            <element signature="e#7989#8220#0" expanded="false" />
+            <element signature="e#8269#8480#0" expanded="false" />
+            <element signature="e#8533#8742#0" expanded="false" />
+            <element signature="e#8795#9009#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/app.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#65#0" expanded="true" />
           </folding>
         </state>
       </provider>

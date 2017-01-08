@@ -7,7 +7,9 @@ import scala.io.StdIn
 
 object app extends App {
 
-  val gameResult = StdIn.readLine().play
+  val gameResult = for {
+    game <- StdIn.readLine().game
+  } yield game.play
 
   println(gameResult)
 }
